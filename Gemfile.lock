@@ -1,15 +1,15 @@
 GIT
   remote: https://github.com/wasya-co/iron_warbler.git
-  revision: 6073484874060a978ee49883f51ef9124822af09
-  branch: 1.2.0
+  revision: 53fb1eea5eaacf8a7823f74b85a8650df3d9db80
+  branch: 2.0.0
   specs:
-    iron_warbler (0.0.5)
+    iron_warbler (2.0.5)
       cancancan (~> 3.4.0)
       haml (~> 5.2.0)
       httparty (~> 0.21.0)
       jbuilder (~> 2.11.0)
       jwt (~> 2.3.0)
-      mysql2 (~> 0.5.4)
+      mysql2 (~> 0.5.5)
       rails (~> 6.1.0)
 
 GEM
@@ -180,7 +180,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   iron_warbler!
-  mysql2 (~> 0.5)
+  mysql2 (~> 0.5.5)
   puma (~> 5.0)
   rails (~> 6.1.0)
 
