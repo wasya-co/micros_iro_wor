@@ -14,8 +14,8 @@ GIT
 
 GIT
   remote: https://github.com/wasya-co/ishapi.git
-  revision: dcb31233212c0829dcfbb3a1b1e3832ae7633e86
-  branch: 3.0.0
+  revision: 3a5b59aae95ea4454bccb14de60e2fe0852a7f3f
+  branch: 3.0.1
   specs:
     ishapi (0.1.0)
       rails (~> 6.1.7, >= 6.1.7.6)

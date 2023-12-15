@@ -1,6 +1,7 @@
 
 Rails.application.routes.draw do
   root to: 'application#home'
+
   get 'home', to: 'application#home2'
   # get 'login', to: 'application#login', as: :new_user_session
 
