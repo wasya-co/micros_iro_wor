@@ -11,7 +11,7 @@ require "action_controller/railtie"
 # require "action_text/engine"
 require "action_view/railtie"
 require "sprockets/railtie"
-require "rails/test_unit/railtie"
+# require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -34,3 +34,9 @@ module MicrosIroWor
     config.generators.system_tests = nil
   end
 end
+
+def puts! a, b=''
+  puts "+++ +++ #{b}"
+  puts a.inspect
+end
+

@@ -1,24 +1,17 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+bundler failing ?!
 
-Things you may want to cover:
+  export DEBUG_RESOLVER=1
 
-* Ruby version
+From: https://github.com/appoks/rails-api-keycloak
+From: https://github.com/appoks/rails-api-keycloak/blob/master/backend/app/controllers/application_controller.rb
+From: https://github.com/looorent/keycloak-api-rails ( unimplemented I think )
 
-* System dependencies
+It works:
+* https://github.com/ccrockett/omniauth-keycloak?tab=readme-ov-file
+* https://github.com/heartcombo/devise/wiki/OmniAuth:-Overview
+* https://github.com/omniauth/omniauth
+* https://github.com/imagov/example-gem-keycloak/blob/master/app/controllers/session_controller.rb
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
